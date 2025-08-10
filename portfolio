@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Waezzada - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <div class="profile-photo-container">
+                <img src="https://via.placeholder.com/150" alt="Zahra Waezzada Profile Photo" class="profile-photo">
+            </div>
+            <h1>Zahra Waezzada</h1>
+            <p class="tagline">Aspiring Product Manager | UW CSE | Building Inclusive Tech</p>
+        </div>
+        <div class="animated-plane">
+            <i class="fa-solid fa-plane"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="timeline-section" class="section timeline-section">
+            <h2>My Journey</h2>
+            <div class="timeline-container">
+                <div class="timeline-roadmap">
+                    <div class="milestone-card" data-milestone="1">
+                        <div class="icon-container"><i class="fa-solid fa-plane-arrival"></i></div>
+                        <h3>Immigrated from Afghanistan</h3>
+                    </div>
+                    <div class="milestone-card" data-milestone="2">
+                        <div class="icon-container"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3>IB Bilingual Diploma & UW Admission</h3>
+                    </div>
+                    <div class="milestone-card" data-milestone="3">
+                        <div class="icon-container"><i class="fa-solid fa-tree"></i></div>
+                        <h3>High School Programs & Internships</h3>
+                    </div>
+                    <div class="milestone-card" data-milestone="4">
+                        <div class="icon-container"><i class="fa-solid fa-lightbulb"></i></div>
+                        <h3>Projects & Collaborations</h3>
+                    </div>
+                    <div class="milestone-card" data-milestone="5">
+                        <div class="icon-container"><i class="fa-solid fa-map-pin"></i></div>
+                        <h3>Future Vision</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="milestone-details-container">
+                <div class="milestone-detail" data-milestone="1">
+                    <p>My family and I immigrated from Afghanistan, beginning a new chapter in my life.</p>
+                </div>
+                <div class="milestone-detail" data-milestone="2">
+                    <p>Earned my IB Bilingual Diploma and was accepted into the University of Washington for Computer Science and Engineering.</p>
+                </div>
+                <div class="milestone-detail" data-milestone="3">
+                    <p>Participated in various high school programs and internships, including environmental research and coding bootcamps.</p>
+                </div>
+                <div class="milestone-detail" data-milestone="4">
+                    <ul>
+                        <li>**Scholar-Seed:** Designed a scholarship discovery app with a gamified forest growth theme.</li>
+                        <li>**Fred Hutch:** Analyzed gene data using R to study cancer mutations.</li>
+                        <li>**Coding for Cancer:** Coded a tool to visualize cancer research data.</li>
+                    </ul>
+                </div>
+                <div class="milestone-detail" data-milestone="5">
+                    <p>I aspire to become a tech leader and a Product Manager, building innovative and inclusive technology for a better world.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects-section" class="section projects-section">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Scholar-Seed</h3>
+                    <p>Designed a scholarship discovery app with a gamified forest growth theme.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Fred Hutch Coding for Cancer</h3>
+                    <p>Analyzed gene data using R to study cancer mutations.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>Interactive story of my journey in tech.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section contact-section">
+        <div class="mission-statement">
+            <p>I aspire to build inclusive, impactful technology as a future product leader.</p>
+        </div>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:zahra.waezzada@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
